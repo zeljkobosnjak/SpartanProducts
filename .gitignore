@@ -1,10 +1,84 @@
+# Directories #
 [Bb]in/
 [Oo]bj/
+log/
+TestResults/
+
+# Visual Studio #
 *.user
 *.userosscache
 *.suo
 *.userprefs
 *.dbmdl
 *.jfm
-log/
+*.njsproj
+*.sln.docstates
+*.suo
+*.cache
+*.csproj.user
+*.vbproj.user
 .vs/
+
+# Build Results #
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet #
+packages/
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# ReSharper #
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# User-specific files #
+*.rsuser
+*.sln.docstates
+
+# MonoDevelop/XamarinStudio #
+*.userprefs
+*.dll.mdb
+*.exe.mdb
+*.mdb
+*.pidb
+*.userprefs
+
+# OS generated files #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python virtual environment #
+env/
+venv/
+ENV/
+
+# Node.js #
+node_modules/
+
+# Visual Studio Code #
+.vscode/
